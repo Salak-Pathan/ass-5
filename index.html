@@ -23,7 +23,8 @@
             </div>
             <div class="navbar-end">
                 <a class="btn flex items-center">
-                    <img src="assets/coin.png" alt="Coin"> Button
+                    <img src="assets/coin.png" alt="Coin"> 
+                    <span id="total">5500</span>
                 </a>
             </div>
         </div>
@@ -59,10 +60,10 @@
                             or small, makes difference. Please join us in supporting the relief efforts and making a
                             positive
                             impact on the lives of those in need.</p>
-                        <input type="text" placeholder="Write Donation Amount"
+                        <input type="number" id="noakhali" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-full flex" />
                         <div class="card-actions lg:flex ">
-                            <button class="btn btn-primary w-full  bg-[#B4F461] text-black ">Donate Now</button>
+                            <button id="noakhalibtn" class="btn btn-primary w-full  bg-[#B4F461] text-black ">Donate Now</button>
                         </div>
                     </div>
                 </div>
@@ -77,16 +78,11 @@
                     </div>
                     <div class="card-body">
                         <h2 class="card-title">Donate for Flood Relief in Feni,Bangladesh</h2>
-                        <p> The recent floods in Feni have devastated local communities, leading to severe disruption
-                            and loss. Your generous donation will help provide immediate aid, including food, clean
-                            water, and medical supplies, to those affected by this calamity. Together, we can offer
-                            crucial support and help rebuild lives in the aftermath of this disaster. Every contribution
-                            counts towards making a real difference. Please consider donating today to assist those in
-                            urgent need.</p>
-                        <input type="text" placeholder="Write Donation Amount"
+                        <p> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need. </p>
+                            <input type="number" id="feni" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-full flex" />
-                        <div class="card-actions lg:flex ">
-                            <button class="btn btn-primary w-full  bg-[#B4F461] text-black">Donate Now</button>
+                            <div class="card-actions lg:flex ">
+                            <button id="fenibtn" class="btn btn-primary w-full  bg-[#B4F461] text-black">Donate Now</button>
                         </div>
                     </div>
                 </div>
@@ -106,17 +102,17 @@
                         receive the care and support they need during this challenging time. Every donation plays a
                         vital role in alleviating their suffering and aiding in their recovery. Please consider making a
                         donation to support these brave individuals in their time of need.</p>
-                    <input type="text" placeholder="Write Donation Amount"
+                        <input type="number" id="quota" placeholder="Write Donation Amount"
                         class="input input-bordered w-full max-w-full flex" />
-                    <div class="card-actions lg:flex ">
-                        <button class="btn btn-primary w-full  bg-[#B4F461] text-black">Donate Now</button>
-                    </div>
+                        <div class="card-actions lg:flex ">
+                        <button id="quotabtn" class="btn btn-primary w-full  bg-[#B4F461] text-black">Donate Now</button>
                 </div>
             </div>
         </div>
         </div>
 
     </main>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
