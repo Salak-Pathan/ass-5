@@ -5,15 +5,15 @@ calculateButton.addEventListener('click', function () {
     let donate2 = parseFloat(document.getElementById("feni").value) || 0;
     let donate3 = parseFloat(document.getElementById("quota").value) || 0;
     if (donate1 < 0) {
-        alert("Noakhali donation cannot be negative!");
+        alert("Donation amount tk cannot be negative!!!");
         donate1 = 0;
     }
     if (donate2 < 0) {
-        alert("Feni donation cannot be negative!");
+        alert("Donation amount tk cannot be negative!!!");
         donate2 = 0;
     }
     if (donate3 < 0) {
-        alert("Quota donation cannot be negative!");
+        alert("Donation amount tk cannot be negative!!!");
         donate3 = 0;
     }
     const totalDonate = 5500 + donate1 + donate2 + donate3
@@ -32,15 +32,15 @@ calculateButton2.addEventListener('click', function () {
     let donate3 = parseFloat(document.getElementById("quota").value) || 0;
 
     if (donate1 < 0) {
-        alert("Noakhali donation cannot be negative!");
+        alert("Donation amount tk cannot be negative!!!");
         donate1 = 0;
     }
     if (donate2 < 0) {
-        alert("Feni donation cannot be negative!");
+        alert("Donation amount tk cannot be negative!!!");
         donate2 = 0;
     }
     if (donate3 < 0) {
-        alert("Quota donation cannot be negative!");
+        alert("Donation amount tk cannot be negative!!!");
         donate3 = 0;
     }
 
@@ -57,15 +57,15 @@ calculateButton3.addEventListener('click', function () {
     let donate3 = parseFloat(document.getElementById("quota").value) || 0;
 
     if (donate1 < 0) {
-        alert("Noakhali donation cannot be negative!");
+        alert("Donation amount tk cannot be negative!!!");
         donate1 = 0;
     }
     if (donate2 < 0) {
-        alert("Feni donation cannot be negative!");
+        alert("Donation amount tk cannot be negative!!!");
         donate2 = 0;
     }
     if (donate3 < 0) {
-        alert("Quota donation cannot be negative!");
+        alert("Donation amount tk cannot be negative!!!");
         donate3 = 0;
     }
     const totalDonate = 5500 + donate1 + donate2 + donate3;
